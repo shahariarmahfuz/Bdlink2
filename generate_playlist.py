@@ -2,7 +2,7 @@ import os
 import requests
 import re
 
-def is_channel_live(url):
+def is_channel_live(https://youtube.com/@somoynews360?si=fyqCT4zELqXD5LYi):
     try:
         response = requests.get(url, stream=True, timeout=5)
         # First check if the response is OK
